@@ -1,0 +1,45 @@
+logo.css
+.nfLogo{ /*Couleur et forme de SVG*/
+	    fill: #e50914;
+    line-height: normal;
+}
+
+.nfLogo .svg-icon-netflix-logo{ /*Style qui permet de déterminer la forme du logo. Aucune propriété de mouvement, le logo est placé grâce à la propriété de la div parente (position:relative)*/  
+	padding-top: 0.5rem;
+    height: 58px;
+    width: 201px;
+
+/* PARTIE RESPONSIVE DESIGN*/
+@media only screen and (max-width: 949px) and (min-width: 550px){
+	.nfLogo .svg-icon-netflix-logo{
+		height: 38px;
+		width: 108px;
+	}
+}
+@media only screen and (max-width: 1449px) and (min-width: 950px){
+	.nfLogo .svg-icon-netflix-logo{
+		height: 45px;
+		width: 134px;
+	}
+}
+
+
+
+
+/*Les deux bouttons sont caractérisé par deux styles*/
+.authLinks.redButton{ /*L'extérieur du bonton*/
+	background-color: #e50914;
+    line-height: normal;
+    padding: 9px 21px; /* Permet de créer la structure du bouton en séparant le centre des extremités(haut et bas) et des côtés*/
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+}
+
+.authLinks{/*L'intérieur du boutton*/
+	color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+}

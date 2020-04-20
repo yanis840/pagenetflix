@@ -1,0 +1,36 @@
+banner.css
+
+.our-story-header-wrapper{ 
+/* Valeurs de défaut*/
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	top: 0; /
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: relative;
+/*Valeurs caractéristiques*/
+	z-index: 10; /
+	padding-top: 20px; 
+	background-color: transparent;
+	height: 100px; 
+	transition: background-color 2s; 
+}
+
+.our-story-header{ /*<!-- Deuxième div de la bannière. Elle permet de mettre une marge sur les côtés-->*/
+/*Valeurs de défaut*/
+	position: relative;
+	height: 100%;
+/*Valeurs caractéristiques*/
+	margin: 0 3.5rem; 
+	height: 80px;
+}
+
+/*PARTIE RESPONSIVE DESIGN*/
+@media (max-width: 949px) and (min-width:550px){
+	.our-story-header{
+		margin: 0 45px;
+	}
+}
+

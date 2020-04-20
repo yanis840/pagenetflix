@@ -1,0 +1,201 @@
+footer.css
+/*Première DIV = our-story-card card contents footer-card our-story-card-no-border*/
+.our-story-card.our-story-card-no-border {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px), only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px){
+.our-story-card {
+    padding: 114px 44px;
+    margin: auto;
+    
+}	
+}
+
+.footer-card {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*Deuxième DIV = site-footer-wrapper centered dark*/
+.site-footer-wrapper {
+    margin-top: 0;
+}
+
+.site-footer-wrapper {
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+
+/*Troisième DIV* = footer-divider*/
+.footer-divider {
+    display: none;
+}
+
+.footer-divider {
+    height: 0;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+}
+
+/*Quatrième DIV = site-footer*/
+.site-footer {
+    padding-top: 0;
+}
+.site-footer {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+}
+
+/*Cinquième DIV = footer-top*/
+.footer-top {
+    padding: 0;
+    margin: 0 0 30px;
+}
+.footer-top-a {
+    color: #757575;
+}
+
+/*Sixième DIV = footer-links structuram ( la liste) */
+ul.structural {
+    padding: 0;
+    margin: 0;
+}
+.footer-links {
+    max-width: 1000px;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.structural > li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-link-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+ul > li {
+    margin-left: 1.1em;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+.footer-link {
+    color: #757575;
+}
+
+/*Septième DIV = lang-selection-container*/
+}
+.lang-selection-container {
+    margin-top: 20px;
+}
+.lang-selection-container .ui-select-wrapper {
+    width: auto;
+}
+
+.ui-select-wrapper {
+    display: inline-block;
+    position: relative;
+}
+.ui-select-wrapper > .ui-label {
+    margin-bottom: 0;
+}
+.ui-label {
+    margin-bottom: 6px;
+}
+.ui-label, .ui-label-no-margin, .nfCompactInput {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
+    display: block;
+}
+.ui-select-wrapper .select-arrow {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.footer-card .dark .ui-select-wrapper .select-arrow.prefix::before {
+    top: 17px;
+    color: #999;
+}
+.lang-selection-container .ui-select-wrapper .select-arrow.prefix::before {
+    top: 14px;
+}
+.ui-select-wrapper .select-arrow.prefix.globe::before {
+    content: '\e896';
+}
+.ui-select-wrapper .select-arrow.prefix::before {
+    font-family: 'nf-icon';
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    pointer-events: none;
+}
+.ui-select-wrapper .select-arrow.medium::before {
+    top: 11px;
+    left: 15px;
+}
+.lang-selection-container .ui-select-wrapper .select-arrow.prefix .ui-select.medium {
+    text-indent: 0;
+    padding-right: 26px;
+}
+.ui-select-wrapper .select-arrow.prefix .ui-select.medium {
+    padding-left: 50px;
+    text-indent: 2px;
+    line-height: 1.7;
+}
+.footer-card .dark .ui-select-wrapper .ui-select {
+    background-color: #000000;
+    background-image: none;
+    border: 1px solid #333333;
+    color: #999;
+    font-size: 16px;
+}
+.lang-selection-container .ui-select {
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f7f7));
+    background-image: -webkit-linear-gradient(top, #fff, #f7f7f7);
+    background-image: -moz- oldlinear-gradient(top, #fff, #f7f7f7);
+    background-image: -o-linear-gradient(top, #fff, #f7f7f7);
+    background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+    font-size: 13px;
+}
+.ui-select.medium {
+    padding: 12px;
+}
+.ui-select {
+    background: #fff;
+    font-size: 16px;
+    border: 1px solid #b3b3b3;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 100%;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
